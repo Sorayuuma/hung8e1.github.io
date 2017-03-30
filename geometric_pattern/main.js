@@ -8,10 +8,10 @@ var bVal;
 function setup() {
     createCanvas(480, 600);
     
-    frameRate(9);
+    frameRate(4);
     
     circleDiameter = width/NUM_CIRCLES;
-    circleRadius = circleDiameter/6;
+    circleRadius = circleDiameter/3;
     
     rVal = 255;
     gVal = 0;
@@ -30,7 +30,7 @@ function draw() {
     if (isShifted) {
       x = circleRadius;
     } else {
-      x = 45;
+      x = 500;
     }
 
     while (x <= width) {
